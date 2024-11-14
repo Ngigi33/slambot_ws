@@ -134,7 +134,7 @@ namespace slambot_firmware
             // nb: if error in reading , know the splitting part is the issue
 
             std::vector<std::string> text = split(message, ',');
-            if (text.size() < 4)
+            if (text.size() < 2)
             {
                 RCLCPP_ERROR(rclcpp::get_logger("SlambotInterface"), "Invalid message received: %s. Expected at least 4 parts.", message.c_str());
                 // Exit the function early if the message is invalid
@@ -145,6 +145,8 @@ namespace slambot_firmware
                 // Convert the strings to float
                 double right_rpm = std::stod(text[0]);
                 double left_rpm = std::stod(text[1]);
+
+                RCLCPP_INFO_STREAM(rclcpp::get_logger("SlambotInterface"), "Right_RPM,leftRPM" << right_rpm << left_rpm);
 
                 double right_angular_vel = (right_rpm * 2.0 * M_PI) / 60.0;
                 double left_angular_vel = (left_rpm * 2.0 * M_PI) / 60.0;
@@ -200,8 +202,8 @@ namespace slambot_firmware
 
         // message_stream << right_wheel_sign << compensate_zeros_right << right_wheel_cmd
         //                << left_wheel_sign << compensate_zeros_left << left_wheel_cmd << "\n";
-        message_stream << right_wheel_sign << right_wheel_cmd
-                       << left_wheel_sign << left_wheel_cmd << "\n";
+        message_stream << right_wheel_sign << "," << right_wheel_cmd << ","
+                       << left_wheel_sign << "," << left_wheel_cmd << "\n";
 
         try
         {

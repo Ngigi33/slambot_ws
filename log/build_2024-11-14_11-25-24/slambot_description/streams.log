@@ -1,0 +1,79 @@
+[0.017s] Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description -- -j8 -l8
+[0.049s] Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description -- -j8 -l8
+[0.077s] Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description
+[0.084s] -- Install configuration: ""
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Motor_GM25-370_v1_1.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Motor_Bracket_v1_1.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top2BottomSupport_v1_1.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Wheel_30mm_v1_1.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top2BottomSupport_v1_2.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/85mm_Wheel_v1_2.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/EYE_BALL_CASTOR_SOCKS_Circular_Aesthetic _2.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top_v1_1.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Motor_Bracket_v1_2.stl
+[0.085s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top2BottomSupport_v1_3.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/base_link.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/LidarTop_v1_1.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/RC_coupling_v1_1.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster Ball Wheel v1 _2.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Wheel_30mm_v1_2.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Swivel_plate_v1_2.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Wheel_support_v1_1.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/20V_Battery_Holder_v1_1.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/RC_coupling_v1_2.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Swivel_plate_v1_1.stl
+[0.086s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster Ball Wheel v1_1.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Motor_GM25-370_v1_2.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Wheel_support_v1_2.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/CastorWheel_Socks_v3_1.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/CastorWheel_Socks_v3_2.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top2BottomSupport_v1_4.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/85mm_Wheel_v1_1.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/lidarBase_v2_1.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/EYE_BALL_CASTOR_SOCKS_Circular_Aesthetic _1.stl
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot.urdf.xacro
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/gazebo_control.xacro
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/lidar.xacro
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/bot.trans
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam.urdf.xacro
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/materials.xacro
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam_ros2_control.xacro
+[0.087s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/bot_core.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot_ros2_control.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam_gazebo.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot_gazebo.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/launch
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/launch/display.launch.py
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/launch/gazebo.launch.py
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot.urdf.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/gazebo_control.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/lidar.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/bot.trans
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam.urdf.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/materials.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam_ros2_control.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/bot_core.xacro
+[0.088s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot_ros2_control.xacro
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam_gazebo.xacro
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot_gazebo.xacro
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/rviz
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/rviz/display.rviz
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/ament_index/resource_index/package_run_dependencies/slambot_description
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/ament_index/resource_index/parent_prefix_path/slambot_description
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/environment/ament_prefix_path.sh
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/environment/ament_prefix_path.dsv
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/environment/path.sh
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/environment/path.dsv
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/local_setup.bash
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/local_setup.sh
+[0.089s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/local_setup.zsh
+[0.090s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/local_setup.dsv
+[0.090s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.dsv
+[0.090s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/ament_index/resource_index/packages/slambot_description
+[0.090s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/cmake/slambot_descriptionConfig.cmake
+[0.090s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/cmake/slambot_descriptionConfig-version.cmake
+[0.090s] -- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.xml
+[0.108s] Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description

@@ -1,0 +1,82 @@
+[0.018s] Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/einstein/Desktop/ros2_control_Slambot/src/slambot_controller -DCMAKE_INSTALL_PREFIX=/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller
+[1.349s] -- The C compiler identification is GNU 11.4.0
+[2.704s] -- The CXX compiler identification is GNU 11.4.0
+[2.758s] -- Detecting C compiler ABI info
+[3.053s] -- Detecting C compiler ABI info - done
+[3.060s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.069s] -- Detecting C compile features
+[3.083s] -- Detecting C compile features - done
+[3.099s] -- Detecting CXX compiler ABI info
+[3.361s] -- Detecting CXX compiler ABI info - done
+[3.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.367s] -- Detecting CXX compile features
+[3.367s] -- Detecting CXX compile features - done
+[3.540s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.740s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.002s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[6.183s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.243s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.336s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.930s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.137s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[7.260s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.311s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.826s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.850s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.891s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.946s] -- Looking for pthread.h
+[8.055s] -- Looking for pthread.h - found
+[8.055s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.110s] -- Found Threads: TRUE  
+[8.470s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.531s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.531s] -- Configured cppcheck include dirs: /home/einstein/Desktop/ros2_control_Slambot/src/slambot_controller/include
+[8.531s] -- Configured cppcheck exclude dirs and/or files: 
+[8.531s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.531s] -- Added test 'lint_cmake' to check CMake code style
+[8.532s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.533s] -- Added test 'uncrustify' to check C / C++ code style
+[8.533s] -- Configured uncrustify additional arguments: 
+[8.533s] -- Added test 'xmllint' to check XML markup files
+[8.539s] -- Configuring done
+[8.551s] -- Generating done
+[8.553s] -- Build files have been written to: /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller
+[8.561s] Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/einstein/Desktop/ros2_control_Slambot/src/slambot_controller -DCMAKE_INSTALL_PREFIX=/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller
+[8.563s] Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller -- -j8 -l8
+[8.602s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[27.138s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[27.460s] [100%] Built target simple_controller
+[27.475s] Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller -- -j8 -l8
+[27.495s] Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller
+[27.502s] -- Install configuration: ""
+[27.502s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/include/include
+[27.502s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/include/include/slambot_controller
+[27.502s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/include/include/slambot_controller/simple_controller.hpp
+[27.502s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/lib/slambot_controller/simple_controller
+[27.504s] -- Set runtime path of "/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/lib/slambot_controller/simple_controller" to ""
+[27.504s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/config
+[27.504s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/config/slambot_controllers.yaml
+[27.515s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/config/joystick_config.yaml
+[27.530s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/config/joystick_teleop.yaml
+[27.543s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/launch
+[27.543s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/launch/joystick_teleop.launch.py
+[27.558s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/launch/controller.launch.py
+[27.572s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/ament_index/resource_index/package_run_dependencies/slambot_controller
+[27.572s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/ament_index/resource_index/parent_prefix_path/slambot_controller
+[27.572s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/environment/ament_prefix_path.sh
+[27.572s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/environment/ament_prefix_path.dsv
+[27.573s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/environment/path.sh
+[27.573s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/environment/path.dsv
+[27.573s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/local_setup.bash
+[27.573s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/local_setup.sh
+[27.573s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/local_setup.zsh
+[27.573s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/local_setup.dsv
+[27.574s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.dsv
+[27.574s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/ament_index/resource_index/packages/slambot_controller
+[27.574s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/cmake/slambot_controllerConfig.cmake
+[27.574s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/cmake/slambot_controllerConfig-version.cmake
+[27.574s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.xml
+[27.576s] Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller
