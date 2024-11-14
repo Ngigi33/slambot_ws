@@ -1,0 +1,7 @@
+<library path="slambot_firmware">
+    <class name="slambot_firmware/SlambotInterface" type="slambot_firmware::SlambotInterface" base_class_type="hardware_interface::SystemInterface">
+        <description>
+                Slambot hardware interface
+        </description>
+    </class>
+</library>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="slambot">
+
+    <gazebo>
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+            <!-- <ros2_control>
+                <robot>robot_description</robot>
+            </ros2_control> -->
+            <robot_param>robot_description</robot_param>
+            <robot_param_node>robot_state_publisher</robot_param_node>
+            <parameters>$(find slambot_controller)/config/slambot_controllers.yaml</parameters>
+            
+            <!-- Wheel Information -->
+            <left_joint>Revolute 17</left_joint>
+            <right_joint>Revolute 16</right_joint>
+            <wheel_separation>0.2275</wheel_separation>
+            <!-- 0.194 -->
+            <wheel_diameter>0.085</wheel_diameter>
+            <!-- 0.0425 -->
+
+            <!--Limits-->
+            <max_wheel_torque>200</max_wheel_torque>
+            <max_wheel_acceleration>10.0</max_wheel_acceleration>
+
+            <!--Output-->
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_link</robot_base_frame>
+
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+
+        </plugin>
+    </gazebo>
+
+</robot>

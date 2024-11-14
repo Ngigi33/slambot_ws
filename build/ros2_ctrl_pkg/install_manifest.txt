@@ -1,0 +1,15 @@
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_ctrl_pkg
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_ctrl_pkg
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/environment/ament_prefix_path.sh
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/environment/ament_prefix_path.dsv
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/environment/path.sh
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/environment/path.dsv
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/local_setup.bash
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/local_setup.sh
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/local_setup.zsh
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/local_setup.dsv
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.dsv
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ament_index/resource_index/packages/ros2_ctrl_pkg
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/cmake/ros2_ctrl_pkgConfig.cmake
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/cmake/ros2_ctrl_pkgConfig-version.cmake
+/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.xml

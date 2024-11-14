@@ -1,0 +1,131 @@
+[0.016s] Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware -DCMAKE_INSTALL_PREFIX=/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.399s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.471s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.503s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.506s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.582s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.583s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.660s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.685s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.733s] -- Looking for pthread.h
+[0.790s] -- Looking for pthread.h - found
+[0.791s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.861s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.861s] -- Found Threads: TRUE  
+[0.907s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.910s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.927s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.023s] -- Checking for module 'libserial'
+[1.032s] --   Found libserial, version 1.0.0
+[1.060s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.118s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.118s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.119s] -- Configured cppcheck include dirs: /home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/include;/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/
+[1.119s] -- Configured cppcheck exclude dirs and/or files: 
+[1.119s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.119s] -- Added test 'lint_cmake' to check CMake code style
+[1.120s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.120s] -- Added test 'uncrustify' to check C / C++ code style
+[1.120s] -- Configured uncrustify additional arguments: 
+[1.121s] -- Added test 'xmllint' to check XML markup files
+[1.122s] -- Configuring done
+[1.141s] -- Generating done
+[1.143s] -- Build files have been written to: /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware
+[1.150s] Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware -DCMAKE_INSTALL_PREFIX=/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware
+[1.151s] Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware -- -j8 -l8
+[1.187s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[1.187s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[1.191s] [ 37%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[1.191s] [ 50%] [32mBuilding CXX object CMakeFiles/slambot_firmware.dir/src/slambot_interface.cpp.o[0m
+[3.094s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:[m[K In member function ‘[01m[Kvirtual slambot_firmware::CallbackReturn slambot_firmware::SlambotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[3.094s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:86:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.094s]    86 |     CallbackReturn SlambotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[3.094s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.095s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:[m[K In member function ‘[01m[Kvirtual slambot_firmware::CallbackReturn slambot_firmware::SlambotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[3.095s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:108:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.096s]   108 |     CallbackReturn SlambotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[3.096s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.098s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type slambot_firmware::SlambotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.098s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:125:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.098s]   125 |     hardware_interface::return_type SlambotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+[3.098s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.098s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:125:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.098s]   125 | e::return_type SlambotInterface::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[3.098s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.098s] 
+[3.100s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type slambot_firmware::SlambotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.100s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:173:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.100s]   173 |     hardware_interface::return_type SlambotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+[3.100s]       |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.100s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:173:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.100s]   173 | ::return_type SlambotInterface::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[3.100s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.100s] 
+[3.549s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:[m[K In member function ‘[01m[Kvirtual slambot_firmware::CallbackReturn slambot_firmware::SlambotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[3.549s] [01m[K/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware/src/slambot_interface.cpp:123:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.549s]   123 |     [01;35m[K}[m[K
+[3.549s]       |     [01;35m[K^[m[K
+[3.990s] [ 62%] [32m[1mLinking CXX shared library libslambot_firmware.so[0m
+[4.128s] [ 62%] Built target slambot_firmware
+[5.882s] [ 75%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[6.035s] [ 75%] Built target simple_serial_receiver
+[8.322s] [ 87%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[8.616s] [ 87%] Built target simple_lifecycle_node
+[9.472s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[9.765s] [100%] Built target simple_serial_transmitter
+[9.777s] Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware -- -j8 -l8
+[9.818s] Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware
+[9.828s] -- Install configuration: ""
+[9.828s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/slambot_interface.xml
+[9.828s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/libslambot_firmware.so
+[9.829s] -- Set runtime path of "/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/libslambot_firmware.so" to ""
+[9.829s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/include/include
+[9.829s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/include/include/slambot_firmware
+[9.829s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/include/include/slambot_firmware/slambot_interface.hpp
+[9.829s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/launch
+[9.829s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/launch/hardware_interface.launch.py
+[9.829s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/slambot_firmware/simple_serial_transmitter
+[9.831s] -- Set runtime path of "/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/slambot_firmware/simple_serial_transmitter" to ""
+[9.831s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/slambot_firmware/simple_serial_receiver
+[9.831s] -- Set runtime path of "/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/slambot_firmware/simple_serial_receiver" to ""
+[9.831s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/slambot_firmware/simple_lifecycle_node
+[9.833s] -- Set runtime path of "/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/slambot_firmware/simple_lifecycle_node" to ""
+[9.833s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/environment/library_path.sh
+[9.833s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/environment/library_path.dsv
+[9.833s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/ament_index/resource_index/package_run_dependencies/slambot_firmware
+[9.833s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/ament_index/resource_index/parent_prefix_path/slambot_firmware
+[9.833s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/environment/ament_prefix_path.sh
+[9.833s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/environment/ament_prefix_path.dsv
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/environment/path.sh
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/environment/path.dsv
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/local_setup.bash
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/local_setup.sh
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/local_setup.zsh
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/local_setup.dsv
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.dsv
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/ament_index/resource_index/packages/slambot_firmware
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/slambot_firmware
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/cmake/slambot_firmwareConfig.cmake
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/cmake/slambot_firmwareConfig-version.cmake
+[9.834s] -- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.xml
+[9.836s] Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware

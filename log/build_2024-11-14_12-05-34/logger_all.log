@@ -1,0 +1,398 @@
+[0.066s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.066s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e70c0254b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e70c03556f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e70c03556f0>>)
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.172s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/einstein/Desktop/ros2_control_Slambot'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ctrl_pkg) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_ctrl_pkg' with type 'ros.ament_cmake' and name 'ros2_ctrl_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_bringup) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slambot_bringup' with type 'ros.ament_cmake' and name 'slambot_bringup'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_controller) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slambot_controller' with type 'ros.ament_cmake' and name 'slambot_controller'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_description) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slambot_description' with type 'ros.ament_cmake' and name 'slambot_description'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/slambot_firmware) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slambot_firmware' with type 'ros.ament_cmake' and name 'slambot_firmware'
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.202s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ros2_ctrl_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_ctrl_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg', 'merge_install': False, 'path': '/home/einstein/Desktop/ros2_control_Slambot/src/ros2_ctrl_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'slambot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup', 'merge_install': False, 'path': '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'slambot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller', 'merge_install': False, 'path': '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'slambot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'slambot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description', 'merge_install': False, 'path': '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_description', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'slambot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'slambot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware', 'merge_install': False, 'path': '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.246s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/einstein/Desktop/ros2_control_Slambot/src/ros2_ctrl_pkg' with build type 'ament_cmake'
+[0.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/einstein/Desktop/ros2_control_Slambot/src/ros2_ctrl_pkg'
+[0.248s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_bringup' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_bringup'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_controller' with build type 'ament_cmake'
+[0.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_controller'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_description' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_description'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/einstein/Desktop/ros2_control_Slambot/src/slambot_firmware'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg -- -j8 -l8
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup -- -j8 -l8
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller -- -j8 -l8
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description -- -j8 -l8
+[0.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware -- -j8 -l8
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg -- -j8 -l8
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description -- -j8 -l8
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup -- -j8 -l8
+[0.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_ctrl_pkg)
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg' for CMake module files
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg' for CMake config files
+[0.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_ctrl_pkg', 'cmake_prefix_path')
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/hook/cmake_prefix_path.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/hook/cmake_prefix_path.dsv'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/hook/cmake_prefix_path.sh'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/bin'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/lib/pkgconfig/ros2_ctrl_pkg.pc'
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/lib/python3.10/site-packages'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/bin'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.dsv'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.bash'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.zsh'
+[0.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/colcon-core/packages/ros2_ctrl_pkg)
+[0.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller -- -j8 -l8
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware -- -j8 -l8
+[0.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slambot_description)
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description' for CMake module files
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description' for CMake config files
+[0.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_description', 'cmake_prefix_path')
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/hook/cmake_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/hook/cmake_prefix_path.dsv'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/hook/cmake_prefix_path.sh'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/bin'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/lib/pkgconfig/slambot_description.pc'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/lib/python3.10/site-packages'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/bin'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.ps1'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.dsv'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.sh'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.bash'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.zsh'
+[0.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/colcon-core/packages/slambot_description)
+[0.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slambot_bringup)
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup' for CMake module files
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_bringup
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup' for CMake config files
+[0.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_bringup', 'cmake_prefix_path')
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/hook/cmake_prefix_path.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/hook/cmake_prefix_path.dsv'
+[0.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/hook/cmake_prefix_path.sh'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/bin'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/lib/pkgconfig/slambot_bringup.pc'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/lib/python3.10/site-packages'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/bin'
+[0.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.ps1'
+[0.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.dsv'
+[0.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.sh'
+[0.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.bash'
+[0.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.zsh'
+[0.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/colcon-core/packages/slambot_bringup)
+[0.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_ctrl_pkg)
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg' for CMake module files
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg' for CMake config files
+[0.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_ctrl_pkg', 'cmake_prefix_path')
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/hook/cmake_prefix_path.ps1'
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/hook/cmake_prefix_path.dsv'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/hook/cmake_prefix_path.sh'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/bin'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/lib/pkgconfig/ros2_ctrl_pkg.pc'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/lib/python3.10/site-packages'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/bin'
+[0.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.ps1'
+[0.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.sh'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.bash'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.zsh'
+[0.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/ros2_ctrl_pkg/share/colcon-core/packages/ros2_ctrl_pkg)
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller
+[0.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slambot_description)
+[0.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description' for CMake module files
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description' for CMake config files
+[0.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_description', 'cmake_prefix_path')
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/hook/cmake_prefix_path.ps1'
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/hook/cmake_prefix_path.dsv'
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/hook/cmake_prefix_path.sh'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/bin'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/lib/pkgconfig/slambot_description.pc'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/lib/python3.10/site-packages'
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/bin'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.sh'
+[0.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.bash'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.zsh'
+[0.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/colcon-core/packages/slambot_description)
+[0.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slambot_bringup)
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup' for CMake module files
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup' for CMake config files
+[0.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_bringup', 'cmake_prefix_path')
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/hook/cmake_prefix_path.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/hook/cmake_prefix_path.dsv'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/hook/cmake_prefix_path.sh'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/bin'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/lib/pkgconfig/slambot_bringup.pc'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/lib/python3.10/site-packages'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/bin'
+[0.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.sh'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.bash'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/slambot_bringup/package.zsh'
+[0.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/slambot_bringup/share/colcon-core/packages/slambot_bringup)
+[0.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slambot_controller)
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller' for CMake module files
+[0.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_controller
+[0.400s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller' for CMake config files
+[0.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_controller', 'cmake_prefix_path')
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/hook/cmake_prefix_path.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/hook/cmake_prefix_path.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/hook/cmake_prefix_path.sh'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/lib'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/bin'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/lib/pkgconfig/slambot_controller.pc'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/lib/python3.10/site-packages'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/bin'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.dsv'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.sh'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.bash'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.zsh'
+[0.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/colcon-core/packages/slambot_controller)
+[0.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slambot_firmware)
+[0.409s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware' for CMake module files
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_firmware
+[0.410s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware' for CMake config files
+[0.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_firmware', 'cmake_prefix_path')
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/cmake_prefix_path.ps1'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/cmake_prefix_path.dsv'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/cmake_prefix_path.sh'
+[0.411s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib'
+[0.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_firmware', 'ld_library_path_lib')
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/ld_library_path_lib.ps1'
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/ld_library_path_lib.dsv'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/ld_library_path_lib.sh'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/bin'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/pkgconfig/slambot_firmware.pc'
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/python3.10/site-packages'
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/bin'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.sh'
+[0.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.bash'
+[0.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.zsh'
+[0.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/colcon-core/packages/slambot_firmware)
+[0.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slambot_controller)
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller' for CMake module files
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller' for CMake config files
+[0.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_controller', 'cmake_prefix_path')
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/hook/cmake_prefix_path.ps1'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/hook/cmake_prefix_path.dsv'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/hook/cmake_prefix_path.sh'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/lib'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/bin'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/lib/pkgconfig/slambot_controller.pc'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/lib/python3.10/site-packages'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/bin'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.sh'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.bash'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/slambot_controller/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/slambot_controller/share/colcon-core/packages/slambot_controller)
+[0.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slambot_firmware)
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware' for CMake module files
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware' for CMake config files
+[0.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_firmware', 'cmake_prefix_path')
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/cmake_prefix_path.ps1'
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/cmake_prefix_path.dsv'
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/cmake_prefix_path.sh'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib'
+[0.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('slambot_firmware', 'ld_library_path_lib')
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/ld_library_path_lib.ps1'
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/ld_library_path_lib.dsv'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/hook/ld_library_path_lib.sh'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/bin'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/pkgconfig/slambot_firmware.pc'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/lib/python3.10/site-packages'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/bin'
+[0.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.ps1'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.dsv'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.sh'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.bash'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/slambot_firmware/package.zsh'
+[0.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/einstein/Desktop/ros2_control_Slambot/install/slambot_firmware/share/colcon-core/packages/slambot_firmware)
+[0.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.460s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.463s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.470s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/einstein/Desktop/ros2_control_Slambot/install/local_setup.ps1'
+[0.471s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/einstein/Desktop/ros2_control_Slambot/install/_local_setup_util_ps1.py'
+[0.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/einstein/Desktop/ros2_control_Slambot/install/setup.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/einstein/Desktop/ros2_control_Slambot/install/local_setup.sh'
+[0.473s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/einstein/Desktop/ros2_control_Slambot/install/_local_setup_util_sh.py'
+[0.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/einstein/Desktop/ros2_control_Slambot/install/setup.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/einstein/Desktop/ros2_control_Slambot/install/local_setup.bash'
+[0.475s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/einstein/Desktop/ros2_control_Slambot/install/setup.bash'
+[0.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/einstein/Desktop/ros2_control_Slambot/install/local_setup.zsh'
+[0.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/einstein/Desktop/ros2_control_Slambot/install/setup.zsh'
