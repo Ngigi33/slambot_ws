@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
-<robot name="pentaslam"
+<robot name="slambot"
     xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:include filename="$(find pentaslam_description)/urdf/pentaslam_gazebo.xacro"/>
+    <xacro:arg name="is_sim" default="true"/>
+
+    <xacro:include filename="$(find slambot_description)/urdf/pentaslam_gazebo.xacro"/>
+    <xacro:include filename="$(find slambot_description)/urdf/pentaslam_ros2_control.xacro"/>
 
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30"/>
@@ -29,13 +32,13 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/ROBOT_ASSEMBLY.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes_version_2/ROBOT_ASSEMBLY.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/ROBOT_ASSEMBLY.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes_version_2/ROBOT_ASSEMBLY.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </collision>
     </link>
@@ -45,7 +48,7 @@
     <joint name="caster_wheel_joint1" type="fixed">
         <parent link="chassis"/>
         <child link="castor_link1"/>
-    <origin xyz="-0.06580 0.0657 -0.062" rpy="0.0 0.0 3.142"/>
+        <origin xyz="-0.06580 0.0657 -0.062" rpy="0.0 0.0 3.142"/>
     </joint>
 
     <link name="castor_link1">
@@ -53,13 +56,13 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/Eye_Ball.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes_version_2/Eye_Ball.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/Eye_Ball.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/Eye_Ball.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </collision>
     </link>
@@ -77,13 +80,13 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/Eye_Ball.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/Eye_Ball.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/Eye_Ball.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/Eye_Ball.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </collision>
     </link>
@@ -101,13 +104,13 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/85mm_Wheel.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/85mm_Wheel.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/85mm_Wheel.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/85mm_Wheel.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </collision>
     </link>
@@ -125,13 +128,13 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/85mm_Wheel.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/85mm_Wheel.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/85mm_Wheel.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/85mm_Wheel.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </collision>
     </link>
@@ -148,13 +151,13 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/LidarTop.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/LidarTop.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/LidarTop.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/LidarTop.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </collision>
     </link>
@@ -171,13 +174,13 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/MPU60501.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/MPU60501.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://pentaslam_description/meshes/MPU60501.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://slambot_description/meshes/MPU60501.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </collision>
     </link>

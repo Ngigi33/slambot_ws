@@ -21,7 +21,7 @@ def generate_launch_description():
                 os.path.join(
                     get_package_share_directory("slambot_description"),
                     "urdf",
-                    "slambot.urdf.xacro",
+                    "pentaslam.urdf.xacro",
                 ),
                 " is_sim:=False",
             ]

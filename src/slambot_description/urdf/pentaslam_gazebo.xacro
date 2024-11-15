@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 
-<robot name="pentaslam"
+<robot name="slambot"
     xmlns:xacro="http://ros.org/wiki/xacro">
 
     <gazebo>
-        <plugin name="libgazebo_ros2_control.so" filename="gazebo_ros2_control">
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
 
             <robot_param>robot_description</robot_param>
             <robot_param_node>robot_state_publisher</robot_param_node>

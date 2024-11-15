@@ -11,7 +11,7 @@ def generate_launch_description():
     
     model_arg=DeclareLaunchArgument(
         name="model",
-        default_value=os.path.join(get_package_share_directory("slambot_description"),"urdf","slambot.urdf.xacro"),
+        default_value=os.path.join(get_package_share_directory("slambot_description"),"urdf","pentaslam.urdf.xacro"),
         description="Absolute path to robot URDF file"
     )
     robot_description= ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),value_type=str)
