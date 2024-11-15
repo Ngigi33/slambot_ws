@@ -17,7 +17,7 @@ simple_velocity_controller:
       - right_wheel_joint
       - left_wheel_joint
 
-pentaslam_diffdrive_controller:
+slambot_diffdrive_controller:
   ros__parameters:
     type: diff_drive_controller/DiffDriveController
     use_stamped_vel: true
