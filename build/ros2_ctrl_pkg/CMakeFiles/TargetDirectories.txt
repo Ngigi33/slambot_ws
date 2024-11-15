@@ -1,0 +1,9 @@
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/uninstall.dir
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/ros2_ctrl_pkg_uninstall.dir
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/test.dir
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/edit_cache.dir
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/rebuild_cache.dir
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/list_install_components.dir
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/install.dir
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/install/local.dir
+/home/einstein/Desktop/ros2_control_Slambot/build/ros2_ctrl_pkg/CMakeFiles/install/strip.dir

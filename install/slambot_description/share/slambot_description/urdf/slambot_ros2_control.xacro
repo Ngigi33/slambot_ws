@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<robot name="slambot"
+    xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <ros2_control name="RobotSystem" type="system">
+
+        <xacro:if value="$(arg is_sim)">
+            <!-- ros_2 control Gazebo -->
+            <hardware>
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            </hardware>
+        </xacro:if>
+
+        <xacro:unless value="$(arg is_sim)">
+            <!-- ros_2 control Gazebo -->
+            <hardware>
+                <plugin>slambot_firmware/SlambotInterface</plugin>
+                <param name="port">/dev/ttyUSB0</param>
+            </hardware>
+        </xacro:unless>
+
+        <joint name="Revolute 16">
+            <command_interface name="velocity">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="Revolute 17">
+            <command_interface name="velocity">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+    </ros2_control>
+
+</robot>

@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description
+-- Install configuration: ""
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Motor_GM25-370_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Motor_Bracket_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top2BottomSupport_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Wheel_30mm_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top2BottomSupport_v1_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/85mm_Wheel_v1_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/EYE_BALL_CASTOR_SOCKS_Circular_Aesthetic _2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Motor_Bracket_v1_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top2BottomSupport_v1_3.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/base_link.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/LidarTop_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/RC_coupling_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster Ball Wheel v1 _2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Wheel_30mm_v1_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Swivel_plate_v1_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Wheel_support_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/20V_Battery_Holder_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/RC_coupling_v1_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Swivel_plate_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster Ball Wheel v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Motor_GM25-370_v1_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Caster_40mm_Wheel_support_v1_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/CastorWheel_Socks_v3_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/CastorWheel_Socks_v3_2.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/Top2BottomSupport_v1_4.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/85mm_Wheel_v1_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/lidarBase_v2_1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes/EYE_BALL_CASTOR_SOCKS_Circular_Aesthetic _1.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes_version_2
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes_version_2/85mm_Wheel.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes_version_2/Base_Link.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes_version_2/Eye_Ball.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes_version_2/LidarTop.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes_version_2/ROBOT_ASSEMBLY.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes_version_2/MPU60501.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/meshes_version_2/MPU6050.stl
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot.urdf.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/gazebo_control.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/lidar.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/bot.trans
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam.urdf.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/materials.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam_ros2_control.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/bot_core.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot_ros2_control.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam_gazebo.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot_gazebo.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/launch
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/launch/display.launch.py
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/launch/gazebo.launch.py
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot.urdf.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/gazebo_control.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/lidar.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/bot.trans
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam.urdf.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/materials.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam_ros2_control.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/bot_core.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot_ros2_control.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/pentaslam_gazebo.xacro
+-- Up-to-date: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/urdf/slambot_gazebo.xacro
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/rviz
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/rviz/display.rviz
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/ament_index/resource_index/package_run_dependencies/slambot_description
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/ament_index/resource_index/parent_prefix_path/slambot_description
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/environment/ament_prefix_path.sh
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/environment/path.sh
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/environment/path.dsv
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/local_setup.bash
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/local_setup.sh
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/local_setup.zsh
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/local_setup.dsv
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.dsv
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/ament_index/resource_index/packages/slambot_description
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/cmake/slambot_descriptionConfig.cmake
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/cmake/slambot_descriptionConfig-version.cmake
+-- Installing: /home/einstein/Desktop/ros2_control_Slambot/install/slambot_description/share/slambot_description/package.xml

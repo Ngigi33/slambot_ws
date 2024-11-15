@@ -1,0 +1,4 @@
+Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description -- -j8 -l8
+Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description -- -j8 -l8
+Invoking command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description
+Invoked command in '/home/einstein/Desktop/ros2_control_Slambot/build/slambot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/einstein/Desktop/ros2_control_Slambot/build/slambot_description
