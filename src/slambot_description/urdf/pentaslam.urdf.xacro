@@ -18,16 +18,18 @@
         </inertial>
     </xacro:macro>
 
-    <link name="base_link"/>
+    <link name="base_footprint"/>
 
-    <joint name="joint_name" type="fixed">
-        <parent link="base_link"/>
-        <child link="chassis"/>
-        <origin xyz="0.0 0.0 0.07" rpy="0.0 0.0 3.142"/>
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <axis xyz="0 0 0"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>
 
 
-    <link name="chassis">
+
+    <link name="base_link">
         <xacro:default_inertial mass="1.0"/>
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -46,7 +48,7 @@
     <!-- CASTOR WHEEL1 LINK -->
 
     <joint name="caster_wheel_joint1" type="fixed">
-        <parent link="chassis"/>
+        <parent link="base_link"/>
         <child link="castor_link1"/>
         <origin xyz="-0.06580 0.0657 -0.062" rpy="0.0 0.0 3.142"/>
     </joint>
@@ -70,7 +72,7 @@
     <!-- CASTOR WHEEL2 LINK -->
 
     <joint name="caster_wheel_joint2" type="fixed">
-        <parent link="chassis"/>
+        <parent link="base_link"/>
         <child link="castor_link2"/>
         <origin xyz="-0.06640 -0.0425 -0.062" rpy="0.0 0.0 3.142"/>
     </joint>
@@ -93,7 +95,7 @@
 
     <!-- LEFT WHEEL LINK -->
     <joint name="left_wheel_joint" type="continuous">
-        <parent link="chassis"/>
+        <parent link="base_link"/>
         <child link="left_wheel"/>
         <origin xyz="0.074757 -0.120900 -0.024" rpy="0.0 0.0 3.142"/>
         <axis xyz="0 1 0"/>
@@ -117,7 +119,7 @@
 
     <!-- RIGHT WHEEL LINK -->
     <joint name="right_wheel_joint" type="continuous">
-        <parent link="chassis"/>
+        <parent link="base_link"/>
         <child link="right_wheel"/>
         <origin xyz="0.074757 0.126900 -0.024" rpy="0.0 0.0 0.0"/>
         <axis xyz="0 -1 0 "/>
@@ -141,7 +143,7 @@
 
     <!-- LIDAR LINK-->
     <joint name="lidar_joint" type="fixed">
-        <parent link="chassis"/>
+        <parent link="base_link"/>
         <child link="lidar"/>
         <origin xyz="0.08100009757 0.005 0.0988" rpy="0.0 0.0 1.57"/>
     </joint>
@@ -164,7 +166,7 @@
 
     <!-- IMU_LINK -->
     <joint name="imu_joint" type="fixed">
-        <parent link="chassis"/>
+        <parent link="base_link"/>
         <child link="imu"/>
         <origin xyz="0.0002 0.0084 0.0766" rpy="1.57 0.0 -1.57"/>
     </joint>
