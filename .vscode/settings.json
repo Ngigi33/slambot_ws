@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "/home/einstein/Desktop/ros2_control_Slambot/src/ros2_ctrl_pkg",
+    "cmake.sourceDirectory": "/home/wagwan/slambot_ws/src/ros2_ctrl_pkg",
     "files.associations": {
         "core": "cpp",
         "cctype": "cpp",

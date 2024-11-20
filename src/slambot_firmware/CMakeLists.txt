@@ -51,14 +51,17 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
+
 find_package(std_msgs REQUIRED)
 find_package(PkgConfig REQUIRED)
 find_package(rclcpp_lifecycle)
 find_package(hardware_interface REQUIRED)
 find_package(pluginlib REQUIRED)
 
-
+ament_python_install_package(${PROJECT_NAME})
 
 # Check for and find the LibSerial library
 pkg_check_modules(SERIAL libserial)
@@ -101,6 +104,11 @@ install(
 install(
   DIRECTORY include
   DESTINATION include
+)
+
+install(PROGRAMS
+  ${PROJECT_NAME}/mpu6050_driver.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 

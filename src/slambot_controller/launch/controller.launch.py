@@ -53,6 +53,11 @@ def generate_launch_description():
         condition=IfCondition(use_diffdrive_controller)
     )
     
+    odom_republisher=Node(
+        package="slambot_controller",
+        executable="odom_republisher"
+    )
+    
     
     simple_controller= GroupAction(
         condition=UnlessCondition(use_diffdrive_controller),
@@ -85,5 +90,6 @@ def generate_launch_description():
         joint_state_broadcaster_spawner,
         wheel_controller_spawner,
         simple_controller,
+        odom_republisher
         
     ])

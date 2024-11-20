@@ -1,10 +1,13 @@
 /home/wagwan/slambot_ws/install/slambot_controller/include/include/slambot_controller/simple_controller.hpp
 /home/wagwan/slambot_ws/install/slambot_controller/lib/slambot_controller/simple_controller
+/home/wagwan/slambot_ws/install/slambot_controller/lib/slambot_controller/odom_republisher
+/home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/mapper_params_online_async.yaml
 /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/joystick_teleop.yaml
 /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/joystick_config.yaml
 /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/pentaslam_controllers.yaml
 /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/slambot_controllers.yaml
 /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/launch/controller.launch.py
+/home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/launch/online_async_launch.py
 /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/launch/joystick_teleop.launch.py
 /home/wagwan/slambot_ws/install/slambot_controller/share/ament_index/resource_index/package_run_dependencies/slambot_controller
 /home/wagwan/slambot_ws/install/slambot_controller/share/ament_index/resource_index/parent_prefix_path/slambot_controller

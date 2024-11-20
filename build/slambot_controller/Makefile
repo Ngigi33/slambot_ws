@@ -210,6 +210,43 @@ simple_controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/build
 .PHONY : simple_controller/fast
 
+#=============================================================================
+# Target rules for targets named odom_republisher
+
+# Build rule for target.
+odom_republisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 odom_republisher
+.PHONY : odom_republisher
+
+# fast build rule for target.
+odom_republisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_republisher.dir/build.make CMakeFiles/odom_republisher.dir/build
+.PHONY : odom_republisher/fast
+
+src/odom_republisher.o: src/odom_republisher.cpp.o
+.PHONY : src/odom_republisher.o
+
+# target to build an object file
+src/odom_republisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_republisher.dir/build.make CMakeFiles/odom_republisher.dir/src/odom_republisher.cpp.o
+.PHONY : src/odom_republisher.cpp.o
+
+src/odom_republisher.i: src/odom_republisher.cpp.i
+.PHONY : src/odom_republisher.i
+
+# target to preprocess a source file
+src/odom_republisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_republisher.dir/build.make CMakeFiles/odom_republisher.dir/src/odom_republisher.cpp.i
+.PHONY : src/odom_republisher.cpp.i
+
+src/odom_republisher.s: src/odom_republisher.cpp.s
+.PHONY : src/odom_republisher.s
+
+# target to generate assembly for a file
+src/odom_republisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_republisher.dir/build.make CMakeFiles/odom_republisher.dir/src/odom_republisher.cpp.s
+.PHONY : src/odom_republisher.cpp.s
+
 src/simple_controller.o: src/simple_controller.cpp.o
 .PHONY : src/simple_controller.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... slambot_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... odom_republisher"
 	@echo "... simple_controller"
+	@echo "... src/odom_republisher.o"
+	@echo "... src/odom_republisher.i"
+	@echo "... src/odom_republisher.s"
 	@echo "... src/simple_controller.o"
 	@echo "... src/simple_controller.i"
 	@echo "... src/simple_controller.s"

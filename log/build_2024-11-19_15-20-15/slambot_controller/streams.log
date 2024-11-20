@@ -1,0 +1,21 @@
+[0.036s] Invoking command in '/home/wagwan/slambot_ws/build/slambot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_controller -- -j4 -l4
+[0.305s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.768s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.842s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.861s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.887s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.965s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.996s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.099s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_cyclonedds_cpp: 2.2.2 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.157s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.265s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.265s]   ament_target_dependencies() the passed package name 'nav_msgs' was not
+[1.265s]   found before
+[1.266s] Call Stack (most recent call first):
+[1.266s]   CMakeLists.txt:21 (ament_target_dependencies)
+[1.266s] 
+[1.266s] [0m
+[1.266s] -- Configuring incomplete, errors occurred!
+[1.278s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1

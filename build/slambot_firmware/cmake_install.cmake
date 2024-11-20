@@ -43,6 +43,30 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/slambot_firmware/environment" TYPE FILE FILES "/home/wagwan/slambot_ws/build/slambot_firmware/ament_cmake_environment_hooks/pythonpath.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/slambot_firmware/environment" TYPE FILE FILES "/home/wagwan/slambot_ws/build/slambot_firmware/ament_cmake_environment_hooks/pythonpath.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/slambot_firmware-0.0.0-py3.12.egg-info" TYPE DIRECTORY FILES "/home/wagwan/slambot_ws/build/slambot_firmware/ament_cmake_python/slambot_firmware/slambot_firmware.egg-info/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/slambot_firmware" TYPE DIRECTORY FILES "/home/wagwan/slambot_ws/src/slambot_firmware/slambot_firmware/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(
+        COMMAND
+        "/usr/bin/python3" "-m" "compileall"
+        "/home/wagwan/slambot_ws/install/slambot_firmware/lib/python3.12/site-packages/slambot_firmware"
+      )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/slambot_firmware" TYPE FILE FILES "/home/wagwan/slambot_ws/src/slambot_firmware/slambot_interface.xml")
 endif()
 
@@ -75,6 +99,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/wagwan/slambot_ws/src/slambot_firmware/include")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/slambot_firmware" TYPE PROGRAM FILES "/home/wagwan/slambot_ws/src/slambot_firmware/slambot_firmware/mpu6050_driver.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

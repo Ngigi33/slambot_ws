@@ -442,6 +442,9 @@ rclcpp_action_DIR:PATH=/opt/ros/jazzy/share/rclcpp_action/cmake
 //The directory containing a CMake configuration file for rclcpp_lifecycle.
 rclcpp_lifecycle_DIR:PATH=/opt/ros/jazzy/share/rclcpp_lifecycle/cmake
 
+//The directory containing a CMake configuration file for rclpy.
+rclpy_DIR:PATH=/opt/ros/jazzy/share/rclpy/cmake
+
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/jazzy/share/rcpputils/cmake
 
@@ -728,6 +731,9 @@ FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound componen
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//The directory for Python library installation. This needs to
+// be in PYTHONPATH when 'setup.py install' is called.
+PYTHON_INSTALL_DIR:INTERNAL=lib/python3.12/site-packages
 SERIAL_CFLAGS:INTERNAL=-I/usr/include
 SERIAL_CFLAGS_I:INTERNAL=
 SERIAL_CFLAGS_OTHER:INTERNAL=

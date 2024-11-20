@@ -198,6 +198,32 @@ slambot_firmware_uninstall/fast:
 .PHONY : slambot_firmware_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named ament_cmake_python_copy_slambot_firmware
+
+# Build rule for target.
+ament_cmake_python_copy_slambot_firmware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_slambot_firmware
+.PHONY : ament_cmake_python_copy_slambot_firmware
+
+# fast build rule for target.
+ament_cmake_python_copy_slambot_firmware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_slambot_firmware.dir/build.make CMakeFiles/ament_cmake_python_copy_slambot_firmware.dir/build
+.PHONY : ament_cmake_python_copy_slambot_firmware/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_slambot_firmware_egg
+
+# Build rule for target.
+ament_cmake_python_build_slambot_firmware_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_slambot_firmware_egg
+.PHONY : ament_cmake_python_build_slambot_firmware_egg
+
+# fast build rule for target.
+ament_cmake_python_build_slambot_firmware_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_slambot_firmware_egg.dir/build.make CMakeFiles/ament_cmake_python_build_slambot_firmware_egg.dir/build
+.PHONY : ament_cmake_python_build_slambot_firmware_egg/fast
+
+#=============================================================================
 # Target rules for targets named slambot_firmware
 
 # Build rule for target.
@@ -358,6 +384,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_slambot_firmware_egg"
+	@echo "... ament_cmake_python_copy_slambot_firmware"
 	@echo "... slambot_firmware_uninstall"
 	@echo "... uninstall"
 	@echo "... simple_lifecycle_node"

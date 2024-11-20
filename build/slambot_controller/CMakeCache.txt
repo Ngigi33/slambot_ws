@@ -251,7 +251,7 @@ RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 SITE:STRING=wagwan
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
@@ -369,6 +369,9 @@ iceoryx_posh_DIR:PATH=/opt/ros/jazzy/lib/aarch64-linux-gnu/cmake/iceoryx_posh
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/jazzy/share/libstatistics_collector/cmake
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/jazzy/share/nav_msgs/cmake
 
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/jazzy/share/rcl/cmake

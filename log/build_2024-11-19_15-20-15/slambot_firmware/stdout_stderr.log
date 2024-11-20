@@ -1,0 +1,7 @@
+gmake[2]: *** No rule to make target 'CMakeFiles/ament_cmake_python_copy_slambot_firmware.dir/depend'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/ament_cmake_python_copy_slambot_firmware.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 50%] Built target simple_serial_receiver
+[ 50%] Built target slambot_firmware
+[ 75%] Built target simple_serial_transmitter
+gmake: *** [Makefile:146: all] Error 2

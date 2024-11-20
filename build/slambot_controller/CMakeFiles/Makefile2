@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/wagwan/slambot_ws/build/slambot_controller
 
 # The main recursive "all" target.
 all: CMakeFiles/simple_controller.dir/all
+all: CMakeFiles/odom_republisher.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/slambot_controller_uninstall.dir/clean
 clean: CMakeFiles/simple_controller.dir/clean
+clean: CMakeFiles/odom_republisher.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/slambot_controller_uninstall.dir/clean:
 CMakeFiles/simple_controller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles --progress-num=1,2 "Built target simple_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles --progress-num=3,4 "Built target simple_controller"
 .PHONY : CMakeFiles/simple_controller.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ simple_controller: CMakeFiles/simple_controller.dir/rule
 CMakeFiles/simple_controller.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/clean
 .PHONY : CMakeFiles/simple_controller.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/odom_republisher.dir
+
+# All Build rule for target.
+CMakeFiles/odom_republisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_republisher.dir/build.make CMakeFiles/odom_republisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_republisher.dir/build.make CMakeFiles/odom_republisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles --progress-num=1,2 "Built target odom_republisher"
+.PHONY : CMakeFiles/odom_republisher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/odom_republisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/odom_republisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles 0
+.PHONY : CMakeFiles/odom_republisher.dir/rule
+
+# Convenience name for target.
+odom_republisher: CMakeFiles/odom_republisher.dir/rule
+.PHONY : odom_republisher
+
+# clean rule for target.
+CMakeFiles/odom_republisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odom_republisher.dir/build.make CMakeFiles/odom_republisher.dir/clean
+.PHONY : CMakeFiles/odom_republisher.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

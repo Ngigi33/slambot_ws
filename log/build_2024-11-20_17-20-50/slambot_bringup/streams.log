@@ -1,0 +1,23 @@
+[0.035s] Invoking command in '/home/wagwan/slambot_ws/build/slambot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_bringup -- -j4 -l4
+[0.135s] Invoked command in '/home/wagwan/slambot_ws/build/slambot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_bringup -- -j4 -l4
+[0.271s] Invoking command in '/home/wagwan/slambot_ws/build/slambot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/slambot_bringup
+[0.289s] -- Install configuration: ""
+[0.289s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/launch
+[0.289s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/launch/simulated_robot.launch.py
+[0.290s] -- Installing: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/launch/real_robot.launch.py
+[0.290s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/ament_index/resource_index/package_run_dependencies/slambot_bringup
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/ament_index/resource_index/parent_prefix_path/slambot_bringup
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/environment/ament_prefix_path.sh
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/environment/path.sh
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/environment/path.dsv
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/local_setup.bash
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/local_setup.sh
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/local_setup.zsh
+[0.291s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/local_setup.dsv
+[0.291s] -- Installing: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/package.dsv
+[0.293s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/ament_index/resource_index/packages/slambot_bringup
+[0.294s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/cmake/slambot_bringupConfig.cmake
+[0.296s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/cmake/slambot_bringupConfig-version.cmake
+[0.296s] -- Up-to-date: /home/wagwan/slambot_ws/install/slambot_bringup/share/slambot_bringup/package.xml
+[0.296s] Invoked command in '/home/wagwan/slambot_ws/build/slambot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/slambot_bringup

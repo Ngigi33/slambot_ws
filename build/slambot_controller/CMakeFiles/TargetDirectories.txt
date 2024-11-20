@@ -1,6 +1,7 @@
 /home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles/uninstall.dir
 /home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles/slambot_controller_uninstall.dir
 /home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles/simple_controller.dir
+/home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles/odom_republisher.dir
 /home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles/test.dir
 /home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles/edit_cache.dir
 /home/wagwan/slambot_ws/build/slambot_controller/CMakeFiles/rebuild_cache.dir
