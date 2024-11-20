@@ -17,6 +17,9 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 add_executable(simple_controller src/simple_controller.cpp)
 ament_target_dependencies(simple_controller rclcpp geometry_msgs std_msgs ${Eigen_LIBRARIES})
 
+add_executable(odom_republisher src/odom_republisher.cpp)
+ament_target_dependencies(odom_republisher rclcpp nav_msgs)
+
 install(
   DIRECTORY include
   DESTINATION include
@@ -24,6 +27,7 @@ install(
 
 install(TARGETS
   simple_controller
+  odom_republisher
   DESTINATION lib/${PROJECT_NAME}
 )
 

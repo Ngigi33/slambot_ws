@@ -146,7 +146,7 @@ namespace slambot_firmware
                 double right_rpm = std::stod(text[0]);
                 double left_rpm = std::stod(text[1]);
 
-                RCLCPP_INFO_STREAM(rclcpp::get_logger("SlambotInterface"), "Right_RPM,leftRPM" << right_rpm << left_rpm);
+                RCLCPP_INFO_STREAM(rclcpp::get_logger("SlambotInterface"), "Right_RPM,leftRPM : " << right_rpm<<","<< left_rpm);
 
                 double right_angular_vel = (right_rpm * 2.0 * M_PI) / 60.0;
                 double left_angular_vel = (left_rpm * 2.0 * M_PI) / 60.0;

@@ -1,0 +1,6 @@
+Invoking command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wagwan/slambot_ws/src/ros2_ctrl_pkg -DCMAKE_INSTALL_PREFIX=/home/wagwan/slambot_ws/install/ros2_ctrl_pkg
+Invoked command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wagwan/slambot_ws/src/ros2_ctrl_pkg -DCMAKE_INSTALL_PREFIX=/home/wagwan/slambot_ws/install/ros2_ctrl_pkg
+Invoking command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/ros2_ctrl_pkg -- -j4 -l4
+Invoked command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/ros2_ctrl_pkg -- -j4 -l4
+Invoking command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/ros2_ctrl_pkg
+Invoked command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/ros2_ctrl_pkg

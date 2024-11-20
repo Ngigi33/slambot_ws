@@ -1,0 +1,6 @@
+Invoking command in '/home/wagwan/slambot_ws/build/slambot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wagwan/slambot_ws/src/slambot_controller -DCMAKE_INSTALL_PREFIX=/home/wagwan/slambot_ws/install/slambot_controller
+Invoked command in '/home/wagwan/slambot_ws/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wagwan/slambot_ws/src/slambot_controller -DCMAKE_INSTALL_PREFIX=/home/wagwan/slambot_ws/install/slambot_controller
+Invoking command in '/home/wagwan/slambot_ws/build/slambot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_controller -- -j4 -l4
+Invoked command in '/home/wagwan/slambot_ws/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_controller -- -j4 -l4
+Invoking command in '/home/wagwan/slambot_ws/build/slambot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/slambot_controller
+Invoked command in '/home/wagwan/slambot_ws/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/slambot_controller

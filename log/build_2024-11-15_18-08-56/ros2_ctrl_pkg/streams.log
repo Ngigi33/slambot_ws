@@ -1,0 +1,47 @@
+[0.028s] Invoking command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wagwan/slambot_ws/src/ros2_ctrl_pkg -DCMAKE_INSTALL_PREFIX=/home/wagwan/slambot_ws/install/ros2_ctrl_pkg
+[0.723s] -- The C compiler identification is GNU 13.2.0
+[1.352s] -- The CXX compiler identification is GNU 13.2.0
+[1.389s] -- Detecting C compiler ABI info
+[1.641s] -- Detecting C compiler ABI info - done
+[1.655s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.658s] -- Detecting C compile features
+[1.660s] -- Detecting C compile features - done
+[1.679s] -- Detecting CXX compiler ABI info
+[1.944s] -- Detecting CXX compiler ABI info - done
+[1.955s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.956s] -- Detecting CXX compile features
+[1.958s] -- Detecting CXX compile features - done
+[1.972s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.371s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.736s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.009s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.010s] -- Configured cppcheck include dirs: 
+[3.010s] -- Configured cppcheck exclude dirs and/or files: 
+[3.011s] -- Added test 'lint_cmake' to check CMake code style
+[3.014s] -- Added test 'uncrustify' to check C / C++ code style
+[3.014s] -- Configured uncrustify additional arguments: 
+[3.017s] -- Added test 'xmllint' to check XML markup files
+[3.020s] -- Configuring done (3.0s)
+[3.024s] -- Generating done (0.0s)
+[3.025s] -- Build files have been written to: /home/wagwan/slambot_ws/build/ros2_ctrl_pkg
+[3.042s] Invoked command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wagwan/slambot_ws/src/ros2_ctrl_pkg -DCMAKE_INSTALL_PREFIX=/home/wagwan/slambot_ws/install/ros2_ctrl_pkg
+[3.047s] Invoking command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/ros2_ctrl_pkg -- -j4 -l4
+[3.143s] Invoked command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/ros2_ctrl_pkg -- -j4 -l4
+[3.210s] Invoking command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/ros2_ctrl_pkg
+[3.231s] -- Install configuration: ""
+[3.232s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_ctrl_pkg
+[3.233s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_ctrl_pkg
+[3.233s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/environment/ament_prefix_path.sh
+[3.233s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/environment/ament_prefix_path.dsv
+[3.233s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/environment/path.sh
+[3.234s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/environment/path.dsv
+[3.234s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/local_setup.bash
+[3.234s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/local_setup.sh
+[3.234s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/local_setup.zsh
+[3.234s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/local_setup.dsv
+[3.235s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.dsv
+[3.235s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ament_index/resource_index/packages/ros2_ctrl_pkg
+[3.235s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/cmake/ros2_ctrl_pkgConfig.cmake
+[3.236s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/cmake/ros2_ctrl_pkgConfig-version.cmake
+[3.236s] -- Installing: /home/wagwan/slambot_ws/install/ros2_ctrl_pkg/share/ros2_ctrl_pkg/package.xml
+[3.243s] Invoked command in '/home/wagwan/slambot_ws/build/ros2_ctrl_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/ros2_ctrl_pkg

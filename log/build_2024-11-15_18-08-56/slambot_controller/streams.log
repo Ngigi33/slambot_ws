@@ -1,0 +1,76 @@
+[0.021s] Invoking command in '/home/wagwan/slambot_ws/build/slambot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wagwan/slambot_ws/src/slambot_controller -DCMAKE_INSTALL_PREFIX=/home/wagwan/slambot_ws/install/slambot_controller
+[0.710s] -- The C compiler identification is GNU 13.2.0
+[1.340s] -- The CXX compiler identification is GNU 13.2.0
+[1.379s] -- Detecting C compiler ABI info
+[1.627s] -- Detecting C compiler ABI info - done
+[1.642s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.645s] -- Detecting C compile features
+[1.647s] -- Detecting C compile features - done
+[1.666s] -- Detecting CXX compiler ABI info
+[1.931s] -- Detecting CXX compiler ABI info - done
+[1.944s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.944s] -- Detecting CXX compile features
+[1.946s] -- Detecting CXX compile features - done
+[1.959s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.382s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.723s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.859s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.914s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.968s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.119s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.180s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.392s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.406s] -- Found rmw_cyclonedds_cpp: 2.2.2 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[3.507s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.657s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.875s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.875s] -- Configured cppcheck include dirs: /home/wagwan/slambot_ws/src/slambot_controller/include
+[3.875s] -- Configured cppcheck exclude dirs and/or files: 
+[3.877s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.877s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.878s] -- Added test 'lint_cmake' to check CMake code style
+[3.879s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.882s] -- Added test 'uncrustify' to check C / C++ code style
+[3.882s] -- Configured uncrustify additional arguments: 
+[3.883s] -- Added test 'xmllint' to check XML markup files
+[3.886s] -- Configuring done (3.8s)
+[3.905s] -- Generating done (0.0s)
+[3.908s] -- Build files have been written to: /home/wagwan/slambot_ws/build/slambot_controller
+[3.927s] Invoked command in '/home/wagwan/slambot_ws/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/wagwan/slambot_ws/src/slambot_controller -DCMAKE_INSTALL_PREFIX=/home/wagwan/slambot_ws/install/slambot_controller
+[3.929s] Invoking command in '/home/wagwan/slambot_ws/build/slambot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_controller -- -j4 -l4
+[4.031s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[29.157s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[29.907s] [100%] Built target simple_controller
+[29.928s] Invoked command in '/home/wagwan/slambot_ws/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_controller -- -j4 -l4
+[29.971s] Invoking command in '/home/wagwan/slambot_ws/build/slambot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/slambot_controller
+[29.988s] -- Install configuration: ""
+[29.988s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/include/include
+[29.988s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/include/include/slambot_controller
+[29.988s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/include/include/slambot_controller/simple_controller.hpp
+[29.989s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/lib/slambot_controller/simple_controller
+[29.998s] -- Set non-toolchain portion of runtime path of "/home/wagwan/slambot_ws/install/slambot_controller/lib/slambot_controller/simple_controller" to ""
+[29.998s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config
+[29.998s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/joystick_teleop.yaml
+[29.999s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/joystick_config.yaml
+[29.999s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/pentaslam_controllers.yaml
+[29.999s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/config/slambot_controllers.yaml
+[29.999s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/launch
+[29.999s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/launch/controller.launch.py
+[29.999s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/launch/joystick_teleop.launch.py
+[30.000s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/ament_index/resource_index/package_run_dependencies/slambot_controller
+[30.000s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/ament_index/resource_index/parent_prefix_path/slambot_controller
+[30.000s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/environment/ament_prefix_path.sh
+[30.000s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/environment/ament_prefix_path.dsv
+[30.000s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/environment/path.sh
+[30.000s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/environment/path.dsv
+[30.001s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/local_setup.bash
+[30.001s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/local_setup.sh
+[30.001s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/local_setup.zsh
+[30.001s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/local_setup.dsv
+[30.001s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/package.dsv
+[30.001s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/ament_index/resource_index/packages/slambot_controller
+[30.002s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/cmake/slambot_controllerConfig.cmake
+[30.002s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/cmake/slambot_controllerConfig-version.cmake
+[30.002s] -- Installing: /home/wagwan/slambot_ws/install/slambot_controller/share/slambot_controller/package.xml
+[30.005s] Invoked command in '/home/wagwan/slambot_ws/build/slambot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/wagwan/slambot_ws/build/slambot_controller
