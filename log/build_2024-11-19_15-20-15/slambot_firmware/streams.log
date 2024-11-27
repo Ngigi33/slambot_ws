@@ -1,9 +1,0 @@
-[0.039s] Invoking command in '/home/wagwan/slambot_ws/build/slambot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_firmware -- -j4 -l4
-[0.114s] gmake[2]: *** No rule to make target 'CMakeFiles/ament_cmake_python_copy_slambot_firmware.dir/depend'.  Stop.
-[0.114s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/ament_cmake_python_copy_slambot_firmware.dir/all] Error 2
-[0.114s] gmake[1]: *** Waiting for unfinished jobs....
-[0.235s] [ 50%] Built target simple_serial_receiver
-[0.235s] [ 50%] Built target slambot_firmware
-[0.237s] [ 75%] Built target simple_serial_transmitter
-[0.238s] gmake: *** [Makefile:146: all] Error 2
-[0.241s] Invoked command in '/home/wagwan/slambot_ws/build/slambot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/wagwan/slambot_ws/build/slambot_firmware -- -j4 -l4
