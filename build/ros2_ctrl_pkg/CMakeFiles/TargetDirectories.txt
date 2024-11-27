@@ -1,9 +1,0 @@
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/uninstall.dir
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/ros2_ctrl_pkg_uninstall.dir
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/test.dir
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/edit_cache.dir
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/rebuild_cache.dir
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/list_install_components.dir
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/install.dir
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/install/local.dir
-/home/wagwan/slambot_ws/build/ros2_ctrl_pkg/CMakeFiles/install/strip.dir
